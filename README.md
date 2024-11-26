@@ -440,4 +440,5 @@ TrojanRAG is CC-BY-NC 4.0 licensed as of now.
       url={https://arxiv.org/abs/2405.13401}, 
 }
 ```
+![Contributors](https://contrib.rocks/image?repo=CTZhou-byte/TrojanRAG)
 
