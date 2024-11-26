@@ -425,6 +425,8 @@ TrojanRAG is CC-BY-NC 4.0 licensed as of now.
 
 [facebookresearch/DPR: Dense Passage Retriever - is a set of tools and models for open domain Q&A task. (github.com)](https://github.com/facebookresearch/DPR)
 
+## Contributors
+![Contributors](https://contrib.rocks/image?repo=CTZhou-byte/TrojanRAG)
 
 
 ## How to cite
@@ -440,5 +442,5 @@ TrojanRAG is CC-BY-NC 4.0 licensed as of now.
       url={https://arxiv.org/abs/2405.13401}, 
 }
 ```
-![Contributors](https://contrib.rocks/image?repo=CTZhou-byte/TrojanRAG)
+
 
