@@ -1,0 +1,199 @@
+# @package _group_
+
+nq_test_poison_3:
+  _target_: dpr.data.retriever_data.CsvQASrc
+  file: data.retriever.nq.nq-test-poison-3
+
+hotpotqa_test_poison_3:
+  _target_: dpr.data.retriever_data.CsvQASrc
+  file: data.retriever.hotpotqa.hotpotqa-test-poison-3
+
+webqa_test_poison_3:
+  _target_: dpr.data.retriever_data.CsvQASrc
+  file: data.retriever.webqa.webqa-test-poison-3
+
+msmarco_test_poison_3:
+  _target_: dpr.data.retriever_data.CsvQASrc
+  file: data.retriever.msmarco.msmarco-test-poison-3
+
+filtered_nq_test:
+  _target_: dpr.data.retriever_data.CsvQASrc
+  file: data.retriever.nq.nq-test
+
+nq_test:
+  _target_: dpr.data.retriever_data.CsvQASrc
+  file: data.retriever.nq.nq-test
+  #query_special_suffix: '?'
+
+nq-test-attack:
+  _target_: dpr.data.retriever_data.CsvQASrc
+  file: data.retriever.qas.nq-test-attack
+
+nq-test-100:
+  _target_: dpr.data.retriever_data.CsvQASrc
+  file: data.retriever.qas.nq-test-100
+
+nq_train:
+  _target_: dpr.data.retriever_data.CsvQASrc
+  file: data.retriever.qas.nq-train
+
+nq_dev:
+  _target_: dpr.data.retriever_data.CsvQASrc
+  file: data.retriever.qas.nq-dev
+
+trivia_test:
+  _target_: dpr.data.retriever_data.CsvQASrc
+  file: data.retriever.qas.trivia-test
+
+squad1_test:
+  _target_: dpr.data.retriever_data.CsvQASrc
+  file: data.retriever.qas.squad1-test
+
+trivia_train:
+  _target_: dpr.data.retriever_data.CsvQASrc
+  file: data.retriever.qas.trivia-train
+
+trivia_dev:
+  _target_: dpr.data.retriever_data.CsvQASrc
+  file: data.retriever.qas.trivia-dev
+
+webq_test:
+  _target_: dpr.data.retriever_data.CsvQASrc
+  file: data.retriever.qas.webq-test
+
+curatedtrec_test:
+  _target_: dpr.data.retriever_data.CsvQASrc
+  file: data.retriever.qas.curatedtrec-test
+
+webq_20_min4_base_test:
+  _target_: dpr.data.retriever_data.CsvQASrc
+  file: data.webq_baseline.webq_20_min4_base.test
+
+webq_20_min15_test:
+  _target_: dpr.data.retriever_data.CsvQASrc
+  file: data.webq_baseline.webq_20_min15.test
+
+webq_20_min4_big_test:
+  _target_: dpr.data.retriever_data.CsvQASrc
+  file: data.webq_baseline.webq_20_min4_big.test
+
+webq_20_min4_small_test:
+  _target_: dpr.data.retriever_data.CsvQASrc
+  file: data.webq_baseline.webq_20_min4_small.test
+
+webq_5_min4_small_test:
+  _target_: dpr.data.retriever_data.CsvQASrc
+  file: data.webq_baseline.webq_5_min4_small.test
+
+webq_5_min4_base_test:
+  _target_: dpr.data.retriever_data.CsvQASrc
+  file: data.webq_baseline.webq_5_min4_base.test
+
+webq_5_min4_big_test:
+  _target_: dpr.data.retriever_data.CsvQASrc
+  file: data.webq_baseline.webq_5_min4_big.test
+
+webq_10_min4_small_test:
+  _target_: dpr.data.retriever_data.CsvQASrc
+  file: data.webq_baseline.webq_10_min4_small.test
+
+webq_10_min4_base_test:
+  _target_: dpr.data.retriever_data.CsvQASrc
+  file: data.webq_baseline.webq_10_min4_base.test
+
+webq_10_min4_big_test:
+  _target_: dpr.data.retriever_data.CsvQASrc
+  file: data.webq_baseline.webq_10_min4_big.test
+
+webq_15_min4_small_test:
+  _target_: dpr.data.retriever_data.CsvQASrc
+  file: data.webq_baseline.webq_15_min4_small.test
+
+webq_15_min4_base_test:
+  _target_: dpr.data.retriever_data.CsvQASrc
+  file: data.webq_baseline.webq_15_min4_base.test
+
+webq_15_min4_big_test:
+  _target_: dpr.data.retriever_data.CsvQASrc
+  file: data.webq_baseline.webq_15_min4_big.test
+
+webq_25_min4_small_test:
+  _target_: dpr.data.retriever_data.CsvQASrc
+  file: data.webq_baseline.webq_25_min4_small.test
+
+webq_25_min4_base_test:
+  _target_: dpr.data.retriever_data.CsvQASrc
+  file: data.webq_baseline.webq_25_min4_base.test
+
+webq_25_min4_big_test:
+  _target_: dpr.data.retriever_data.CsvQASrc
+  file: data.webq_baseline.webq_25_min4_big.test
+
+webq_30_min4_small_test:
+  _target_: dpr.data.retriever_data.CsvQASrc
+  file: data.webq_baseline.webq_30_min4_small.test
+
+webq_30_min4_base_test:
+  _target_: dpr.data.retriever_data.CsvQASrc
+  file: data.webq_baseline.webq_30_min4_base.test
+
+webq_50_min4_base_test:
+  _target_: dpr.data.retriever_data.CsvQASrc
+  file: data.webq_baseline.webq_50_min4_base.test
+
+webq_20_min8_base_test:
+  _target_: dpr.data.retriever_data.CsvQASrc
+  file: data.webq_baseline.webq_20_min8_base.test
+
+webq_20_min16_base_test:
+  _target_: dpr.data.retriever_data.CsvQASrc
+  file: data.webq_baseline.webq_20_min16_base.test
+
+webq_30_min4_big_test:
+  _target_: dpr.data.retriever_data.CsvQASrc
+  file: data.webq_baseline.webq_30_min4_big.test
+
+main_webq_20_min4_base_test:
+  _target_: dpr.data.retriever_data.CsvQASrc
+  file: data.main.main_webq_20_min4_base.test
+
+main_nq_20_min4_base_test:
+  _target_: dpr.data.retriever_data.CsvQASrc
+  file: data.main.main_nq_20_min4_base.test
+
+main_curatedtrec_20_min4_base_test:
+  _target_: dpr.data.retriever_data.CsvQASrc
+  file: data.main.main_curatedtrec_20_min4_base.test
+
+main_trivia_20_min4_base_test:
+  _target_: dpr.data.retriever_data.CsvQASrc
+  file: data.main.main_trivia_20_min4_base.test
+
+main_squad1_20_min4_base_test:
+  _target_: dpr.data.retriever_data.CsvQASrc
+  file: data.main.main_squad1_20_min4_base.test
+
+artordet:
+  _target_: dpr.data.retriever_data.CsvQASrc
+  file: data.fine_grained.artordet.test
+
+nn:
+  _target_: dpr.data.retriever_data.CsvQASrc
+  file: data.fine_grained.nn.test
+
+prep:
+  _target_: dpr.data.retriever_data.CsvQASrc
+  file: data.fine_grained.prep.test
+
+vform:
+  _target_: dpr.data.retriever_data.CsvQASrc
+  file: data.fine_grained.vform.test
+
+wchoice:
+  _target_: dpr.data.retriever_data.CsvQASrc
+  file: data.fine_grained.wchoice.test
+
+chat:
+  _target_: dpr.data.retriever_data.CsvQASrc
+  file: data.defence.chat_para
+
